@@ -27,7 +27,7 @@ tput sgr0; tput setaf 3
 for ((i=1; i<=2; i++))
 {
     tput cup $((lin++)) $c
-    echo 'MMM'
+    echo 'YuC'
 }
 new_year=$(date +'%Y')
 let new_year++
@@ -65,7 +65,7 @@ while true; do
             tput cup $((lin+1)) $((c+sh))
             echo $l
             let sh++
-            sleep 0.01
+            sleep 0.02
         done
     }
     k=$((k % 2 + 1))
