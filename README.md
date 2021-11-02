@@ -1,2 +1,2 @@
 # christmas-tree
-merry Chrismas!!!
+merry Christmas!!!
